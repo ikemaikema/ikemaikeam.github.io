@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+   <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+    <head>
+        <title>TAIWAN TRAVEL</title>
+  </head>
+    <body>
+        <div class="background">
+            <img src="banner01.jpg">
+        </div>
+      <div class="back">
+            <img src="taiwan_logo_white.svg">
+        </div> 
+      <div class="search"> 
+      </div>
+        <button type="button" id="search">
+            SEARCH
+        </button>
+
+      
+        <div class="menu">
+            <input type="button" value="旅遊情報" class="bb" onclick="location.href='food.html'" />
+            <input type="button" value="景點查詢" class="bb" onclick="location.href='food.html'" />
+            <input type="button" value="美食推薦" class="bb" onclick="location.href='food.html'" />
+            <input type="button" value="旅宿資訊" class="bb" onclick="location.href='food.html'" />
+            <input type="button" value="節慶活動" class="bb" onclick="location.href='food.html'" />
+
+            <input type="button" value="TAIWAN TRAVEL" class="twTR" onclick="location.href='index.html'" />    
+       
+        </div>
+      <form>
+            <select id="local" onchange="change(this.selectedIndex)"></select>
+            <select id="town"></select>
+     </form>
+      
+<script type="text/javascript">
+    var locals=['北部地區'];
+    var localSelect=document.getElementById("local");
+    var inner="";
+    inner=inner+'<option value=i>'+locals[0]+'</option>';
+    localSelect.innerHTML=inner;
+  
+    var town = ['臺北市'];
+    town[0]=['臺北市'];
+    function change(index){
+        var Sinner="";
+        Sinner=Sinner+'<option value=i>'+town[0][0]+'</option>';
+        var townSelect=document.getElementById("town");
+        townSelect.innerHTML=Sinner;
+    } change(document.getElementById("local").selectedIndex);
+</script>
+</body>
+</html>
