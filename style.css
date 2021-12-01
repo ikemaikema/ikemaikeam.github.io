@@ -15,8 +15,8 @@
   border-radius: 15px;          
   position: fixed;         
 }
-#local{  
-          opacity: 0.8;
+#place{  
+          opacity: 0.7;
           color: rgb(100, 100, 100);  
           display: flex;
           background-color: #ebebeb;  
@@ -29,11 +29,11 @@
           padding: 16.5px 14px;  
           font-weight: bold;  
           font-size: 16px;  
-          font-family:Microsoft JhengHei;
+          font-family:Charcoal; 
           position: fixed;  
 }
 
-#local option{ 
+#place option{ 
           background-color: white; 
           border-radius: 15px;  
           font-weight: bold;
@@ -46,7 +46,7 @@
           min-height: 100%;
           width: 100%;
 }
-.backT img{  
+.background2 img{  
           width: 35%; 
           position: fixed;  
           top: 18%;  
@@ -77,7 +77,7 @@
           text-align: left;
           letter-spacing: 1.26px;
 }
-.menu{   
+.menulist{   
           display: flex;
           height: 20px;
           padding: 10px;
@@ -86,7 +86,7 @@
           right: 100px;
 }
 
-.twTR{  
+.TAIWANTRAVEL{  
           color:white;  
           font-family: 'EB Garamond','PingFang TC','Noto Sans TC','Roboto','sans-serif';  
           font-size: 22px;  
@@ -99,7 +99,7 @@
           width: 194px;
           height: 28px;
 }
-.twTR:hover{
+.TAIWANTRAVEL:hover{
           cursor: pointer;
           border-radius: 15px; 
           background-color: rgba(190, 181, 186, 0.425);
