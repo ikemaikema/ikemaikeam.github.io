@@ -54,6 +54,7 @@
           z-index: -998
 } 
 
+
 #search:hover{  
           cursor: pointer;
           opacity: 0.7;
@@ -85,8 +86,12 @@
           position: fixed; 
           right: 100px;
 }
+#menulist:hover{  
+          cursor: pointer;
+          opacity: 0.7;
+}
 
-.TAIWANTRAVEL{  
+.TR{  
           color:white;  
           font-family: 'EB Garamond','PingFang TC','Noto Sans TC','Roboto','sans-serif';  
           font-size: 22px;  
@@ -99,7 +104,7 @@
           width: 194px;
           height: 28px;
 }
-.TAIWANTRAVEL:hover{
+.TR:hover{
           cursor: pointer;
           border-radius: 15px; 
           background-color: rgba(190, 181, 186, 0.425);
